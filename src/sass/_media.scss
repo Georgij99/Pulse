@@ -1,0 +1,36 @@
+@media (max-width: 575px) {
+    .promo {
+        &__header {
+            font-size: 33px;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+        &__wrapper {
+            align-items: center;
+        }
+        .header {
+            &__official {
+                display: none;
+            }
+            justify-content: space-around;
+        }
+    }
+    .advantages {
+        height: 910px;
+        .title {
+            font-size: 28px;
+        }
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-top: 30px;
+        }
+        .nmt {
+            margin-top: 0;
+        }
+    }
+}
