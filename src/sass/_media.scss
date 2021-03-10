@@ -1,23 +1,35 @@
 @media (max-width: 575px) {
     .promo {
         &__header {
-            font-size: 28px;
+            font-size: 25px;
         }
         &__subheader {
-            font-size: 15px;
+            font-size: 13px;
         }
         &__wrapper {
             align-items: center;
         }
+        &__icons {
+            display: flex;
+            justify-content: space-around;
+            width: 320px;
+        }
+        &__icon {
+            font-size: 13px;
+            img {
+                width: 40px;
+                height: 40px;
+            }    
+        }
         .header {
             &__logo {
-                width: 200px;
+                width: 170px;
                 img {
                     width: 100%;
                 }
             }
             &__phone {
-                font-size: 14px;
+                font-size: 13px;
             }
             &__official {
                 display: none;
@@ -25,14 +37,21 @@
             justify-content: space-around;
         }
         .button_small {
-            width: 139px;
-            height: 25px;
+            width: 120px;
+            height: 20px;
+            font-size: 11px;
         }
     }
     .advantages {
         height: 910px;
         .title {
-            font-size: 28px;
+            font-size: 25px;
+        }
+        &__subheader {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 13px;
         }
         &__wrapper {
             display: flex;
