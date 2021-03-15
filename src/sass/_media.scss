@@ -1,3 +1,7 @@
+@media (max-width: 1199px) {
+
+}
+
 @media (max-width: 575px) {
     .promo {
         &__header {
@@ -38,8 +42,8 @@
         }
         .button_small {
             width: 120px;
-            height: 20px;
-            font-size: 11px;
+            height: 24px;
+            font-size: 10px;
         }
     }
     .advantages {
